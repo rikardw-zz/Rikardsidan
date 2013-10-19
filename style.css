@@ -6,36 +6,85 @@ body {
 
 .container{		
 	width: 900px;
-	height: 600px;
+	height: auto;
 	margin: auto;
+	border-style: solid;
+	border-width:3px;	
 }
 
-.titlebox{	
+.header{	
 	background-color: #4479BA ;
 	height: 50px;	
 	font-size: 48px;
 	color:#CCFFFF;	
 	padding-top: 10px;
 	padding-left: 10px;
-	border-top-left-radius: 20px; /*Gör att hörnen blir runda*/
-	border-top-right-radius: 20px;
-
-	
 }
+
+
 .mainbox{	
 	background-color: #E8E8E8;
 	height: 580px;
 	padding: 10px;	
+	border-style: solid none solid none;
+	border-width:3px;	
+	clear: both
 	
 }
 
-.bottombox{	
+.footer{	
+	height: 20px;
 	background-color: #4479BA;	
 	text-align: right;
-	font: arial;
-	color:#CCFFFF;	
-	padding-right: 20px;
+	font-family: arial;	
+	font-size: 12px;
+	color: white;	
+	padding-right: 7px;
+	padding-top: 5px;
 	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+.roundedtop{
+	border-top-left-radius: 20px; /*Gör att hörnen blir runda upptill*/
+	border-top-right-radius: 20px;
 	
+}
+
+.roundedbottom{
+	border-bottom-left-radius: 20px; /*Gör att hörnen blir runda nertill*/
+	border-bottom-right-radius: 20px;
+	
+}
+
+
+ul { /*tar bort knappar samt tab på list-items*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:auto;
+}
+
+li
+{
+float:left;
+width: auto;
+}
+
+a:link,a:visited /*gör att hela området (60pixlar brett) blir klickbart*/
+{
+display: block;
+width: 172px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#4479BA;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+a:hover,a:active
+{
+background-color:#6c96c9;
 }
