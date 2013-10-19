@@ -1,4 +1,6 @@
 body {
+	font-family: Arial;
+	font-size: 12px;	
 	margin: 100px;	
     background-image:url('bakgrund1.jpg');
 	background-repeat:repeat;
@@ -16,8 +18,7 @@ h2 {
 	
 }
 p {
-	font-family: Arial;
-	font-size: 12px;	
+
 }
 
 .container{		
@@ -87,7 +88,7 @@ float:left;
 width: auto;
 }
 
-a:link,a:visited /*gör att hela området (60pixlar brett) blir klickbart*/
+ul li a, ul li a:visited /*gör att hela området (60pixlar brett) blir klickbart*/
 {
 display: block;
 width: 172px;
@@ -100,7 +101,21 @@ text-decoration:none;
 text-transform:uppercase;
 }
 
-a:hover,a:active
+ul li a:hover, ul li a:active
 {
 background-color:#6c96c9;
 }
+
+#lioness {
+		position: relative;
+		left: 200px;
+		top: -50px;
+		z-index: 2;
+	}
+	
+#rhino {
+		position: relative;
+		left: 20px;
+		top: 20px;
+		z-index: 1;
+	}
