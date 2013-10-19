@@ -1,0 +1,41 @@
+body {
+	margin: 100px;	
+    background-image:url('bakgrund1.jpg');
+	background-repeat:repeat;
+}
+
+.container{		
+	width: 900px;
+	height: 600px;
+	margin: auto;
+}
+
+.titlebox{	
+	background-color: #4479BA ;
+	height: 50px;	
+	font-size: 48px;
+	color:#CCFFFF;	
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top-left-radius: 20px; /*Gör att hörnen blir runda*/
+	border-top-right-radius: 20px;
+
+	
+}
+.mainbox{	
+	background-color: #E8E8E8;
+	height: 580px;
+	padding: 10px;	
+	
+}
+
+.bottombox{	
+	background-color: #4479BA;	
+	text-align: right;
+	font: arial;
+	color:#CCFFFF;	
+	padding-right: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+}
